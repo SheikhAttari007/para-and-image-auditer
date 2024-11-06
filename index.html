@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para autider & Images autider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+   
+    <button onclick="paraHendler('minus')">-</button>
+     <button disabled id="textNumber">16</button> 
+     <button onclick="paraHendler('plus')">+</button>
+     <button onclick=blodPara()>Blod</button>
+     <button onclick=ItalicPara()>Italic</button>
+     <input type="color" id="color" oninput="colorChange(this)"> 
+     <div class="mainBox"> <p id="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, necessitatibus perspiciatis incidunt non id et ducimus iure aut? Iusto soluta perspiciatis sapiente voluptatibus? Asperiores harum pariatur modi quod veniam incidunt velit ut itaque! Fuga laborum, expedita eos ratione cumque incidunt quibusdam modi architecto sit explicabo adipisci exercitationem debitis perferendis voluptates.</p></div>
+     <br /><br  /><br  />
+
+     <button onclick="imageHandler('bigImg')">Image Hanlder +</button>
+     <button disabled id="imgNumber">16</button> 
+     <button onclick="imageHandler('smallImg')">Image Hanlder -</button>
+
+     <div class="imageBox" >
+        <img  height="100%" width="100%" id="img" src="./images/butter fly image.LF0j5JICj4qbfqQ_Oudn" alt="">
+     </div>
+</body>
+<script src="app.js"></script>
+</html>
